@@ -7,12 +7,13 @@ $accent2: #0c4a6e;
 $accent3: #c4dde0;
 $texte: #172337;
 $espace: 1rem;
-$rayon: 1rem;
+$rayon: 0.75rem;
 
 .carte {
   h2 {color : $accent}
   .bouton.secondaire {
   &:hover {background: $accent3;}
+  &:focus {background: $accent3;}
   background: $accent4;
   border-color: $accent2;
   color: $accent2;
