@@ -1,0 +1,29 @@
+@use "base";
+
+// TODO : déclarer les variables de la charte avant leur utilisation.
+// Le SCSS de départ est compilable. Remplacer les valeurs selon les consignes.
+$couleur1 : #314872;
+$couleur2 : white;
+$couleur3 : black;
+$pad1: 1rem;
+$bord1 : 10px;
+$wii : 300px;
+
+
+
+
+h1 {
+    color: $couleur1;
+}
+
+.carte {
+    background: $couleur2;
+    padding: $pad1;
+    border-radius: $bord1;
+    width: $wii;
+}
+
+.bouton {
+    background: $couleur1;
+    color: $couleur2;
+}
